@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Asia Food Fest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="styles/main.scss">
 </head>
+
 <body>
+    <header class="hero">
+        <div class="container">
+            <h2 class="hero__title">Asia Food Fest 2026</h2>
+            <p class="hero__text">
+                Uma experiência única com os sabores incríveis da Ásia!
+            </p>
+            <span id="contador" class="hero__contador">...</span>
+            <button class="button button--primary">Garanta seu ingresso</button>
+        </div>
+    </header>
+
+    <section class="event event--color-1">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__title">Informações do Evento</h2>
+                <ul class="event__list">
+
+                    <li class="event__card">
+                        <div class="event__icon">
+                            <i class="bi bi-calendar-event-fill"></i>
+                        </div>
+                        <h4 class="event__card-title">Data</h4>
+                        <p class="event__card-text">17 de junho de 2026</p>
+                    </li>
+
+                    <li class="event__card">
+                        <div class="event__icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h4 class="event__card-title">Local</h4>
+                        <p class="event__card-text">Coloca algum nome</p>
+                    </li>
+
+                    <li class="event__card">
+                        <div class="event__icon">
+                            <i class="bi bi-clock-fill"></i>
+                        </div>
+                        <h4 class="event__card-title">Horário</h4>
+                        <p class="event__card-text">12h às 22h</p>
+                    </li>
+
+                    <li class="event__card">
+                        <div class="event__icon">
+                            <i class="bi bi-currency-dollar"></i>
+                        </div>
+                        <h4 class="event__card-title">Entrada</h4>
+                        <p class="event__card-text">Gratuita</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
     <script src="scripts/main.js"></script>
 </body>
+
 </html>

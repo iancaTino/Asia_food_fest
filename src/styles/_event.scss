@@ -1,0 +1,58 @@
+@use 'variaveis';
+
+.event {
+    padding: 60px 20px;
+    background-color: variaveis.$colorWhite;
+
+    &__title {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 50px;
+        color: variaveis.$colorOrange2;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__card {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 30px 20px;
+        text-align: center;
+        width: 220px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        &-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            color: variaveis.$colorOrange2;
+        }
+
+        &-text {
+            font-size: 1.2rem;
+            color: #333;
+        }
+    }
+
+    &__icon {
+        font-size: 2.5rem;
+        color: variaveis.$colorOrange2;
+        margin-bottom: 15px;
+    }
+}
