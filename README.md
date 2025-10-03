@@ -20,19 +20,20 @@ Este projeto é uma landing page que informa **quando e onde vai acontecer o fes
 ![Parcel](https://img.shields.io/badge/Parcel-DF1B00?style=flat&logo=parcel&logoColor=white)
 
 ---
-
 ## 🚀 Roadmap / Próximos passos
 
-✨ **Próximos updates do Asia Food Fest** ✨
+```javascript
+// Próximos updates do Asia Food Fest
+const roadmap = [
+  { status: "🔜", item: "📅 Data e horário oficial", details: "Em breve! Fique de olho!" },
+  { status: "🔜", item: "📍 Local do evento", details: "Preparando para divulgar" },
+  { status: "🔧", item: "📱 Responsividade mobile", details: "Ajustes em andamento" },
+  { status: "🎨", item: "✨ Animações interativas", details: "Brilho e efeitos chegando" },
+  { status: "🌈", item: "🎉 Estilo e cores vibrantes", details: "Deixando tudo mais chamativo" }
+];
 
-- 🕒 **Data e horário oficial do festival** – Em breve!  
-- 📍 **Local do evento** – Preparando para divulgar  
-- 📱 **Responsividade mobile** – Ajustes em andamento  
-- 🎨 **Animações interativas** – Brilho e efeitos chegando  
-- 🌈 **Estilo e cores vibrantes** – Deixando tudo mais chamativo  
-
-> Cada item vai “ganhando vida” à medida que o site vai evoluindo! 💫
-
+// Simulando progresso
+roadmap.forEach(step => console.log(`${step.status} ${step.item} - ${step.details}`));
 
 
 Desfrute da prévia enquanto eu continuo construindo! 😄
