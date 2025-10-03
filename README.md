@@ -3,9 +3,8 @@
 🎉 Um único dia, muita comida deliciosa e cultura asiática para saborear!  
 Este projeto é uma landing page que informa **quando e onde vai acontecer o festival de comida asiática**, trazendo todas as novidades e detalhes do evento.  
 
-<div align="center">
 > ⚠️ **Em desenvolvimento** – ainda estou temperando o projeto!
-</div>
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
