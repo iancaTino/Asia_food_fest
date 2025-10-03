@@ -22,16 +22,17 @@ Este projeto é uma landing page que informa **quando e onde vai acontecer o fes
 ---
 
 ## 🚀 Roadmap / Próximos passos
-```javascript
-const roadmap = [
-  "📅 Adicionar data e horário oficial do festival",
-  "📍 Informar o local do evento",
-  "📱 Melhorar responsividade para dispositivos móveis",
-  "✨ Implementar pequenas animações interativas",
-  "🌈 Tornar a landing page vibrante e estilosa"
-];
 
-roadmap.forEach(item => console.log("Em breve: ", item));
+✨ **Próximos updates do Asia Food Fest** ✨
+
+- 🕒 **Data e horário oficial do festival** – Em breve!  
+- 📍 **Local do evento** – Preparando para divulgar  
+- 📱 **Responsividade mobile** – Ajustes em andamento  
+- 🎨 **Animações interativas** – Brilho e efeitos chegando  
+- 🌈 **Estilo e cores vibrantes** – Deixando tudo mais chamativo  
+
+> Cada item vai “ganhando vida” à medida que o site vai evoluindo! 💫
+
 
 
 Desfrute da prévia enquanto eu continuo construindo! 😄
