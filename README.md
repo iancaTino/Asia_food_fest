@@ -1,9 +1,7 @@
 # 🍜 Asia Food Fest 🌏✨
 
-🎉 Um único dia, muita comida deliciosa e cultura asiática para saborear!  
-Este projeto é uma landing page que informa **quando e onde vai acontecer o festival de comida asiática**, trazendo todas as novidades e detalhes do evento.  
-
-> ⚠️ **Em desenvolvimento** – ainda estou temperando o projeto!
+🎉 Um dia inteiro de comida deliciosa, cultura asiática e experiências inesquecíveis!  
+Esta landing page apresenta **quando e onde vai acontecer o festival**, além de detalhes dos pratos e atrações do evento.
 
 ---
 
@@ -16,18 +14,38 @@ Este projeto é uma landing page que informa **quando e onde vai acontecer o fes
 
 ---
 
-## 🚀 Roadmap / Próximos passos
+## 📅 Detalhes do Evento
 
-| Status | Item | Detalhes |
-|--------|------|----------|
-| 🔜 | 📅 Data e horário oficial | Em breve! |
-| 🔜 | 📍 Local do evento | Preparando para anunciar |
-| 🔧 | 📱 Responsividade mobile | Em andamento |
-| 🎨 | ✨ Animações interativas | Em desenvolvimento |
-| 🌈 | 🎉 Estilo e cores vibrantes | Em progresso |
+<div align="center">
+
+| 🎉 O que | 🗓 Data | ⏰ Horário | 📍 Local |
+|----------|---------|-----------|----------|
+| Festival de comida asiática | 12 de Outubro | 12h às 22h | Parque Central, São Paulo - SP |
+
+</div>
 
 ---
 
-<div align="center">
-Desfrute da prévia enquanto eu continuo construindo! 😄
-</div>
+## 🍱 Cardápio em Destaque
+
+| Prato | Descrição | Preço |
+|-------|-----------|-------|
+| 🍣 Sushi de Salmão | Nigiris fresquinhos de salmão | R$ 25 |
+| 🍜 Ramen Picante | Sopa japonesa quente e saborosa | R$ 30 |
+| 🥢 Yakisoba Veggie | Macarrão frito com legumes | R$ 22 |
+| 🍤 Tempura | Legumes e frutos do mar fritos | R$ 28 |
+
+---
+
+## 💻 Como Rodar Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/iancaTino/Asia_food_fest.git
+cd Asia_food_fest
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor
+npm start
