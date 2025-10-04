@@ -1,9 +1,9 @@
 # 🍜 Asia Food Fest 🌏✨
 
-🎉 Um único dia, muita comida deliciosa e cultura asiática para saborear!  
-Este projeto é uma landing page que informa **quando e onde vai acontecer o festival de comida asiática**, trazendo todas as novidades e detalhes do evento.  
+🎉 Um projeto fictício de landing page inspirado em um festival de comida asiática.  
+O objetivo é mostrar **como poderia ser um evento de gastronomia asiática**, usando HTML, CSS, Sass e JavaScript.
 
-> ⚠️ **Em desenvolvimento** – ainda estou temperando o projeto!
+🔗 [Ver o projeto online](https://asia-food-fest-fzds.vercel.app/)
 
 ---
 
@@ -16,18 +16,13 @@ Este projeto é uma landing page que informa **quando e onde vai acontecer o fes
 
 ---
 
-## 🚀 Roadmap / Próximos passos
+## 🌟 Funcionalidades
 
-| Status | Item | Detalhes |
-|--------|------|----------|
-| 🔜 | 📅 Data e horário oficial | Em breve! |
-| 🔜 | 📍 Local do evento | Preparando para anunciar |
-| 🔧 | 📱 Responsividade mobile | Em andamento |
-| 🎨 | ✨ Animações interativas | Em desenvolvimento |
-| 🌈 | 🎉 Estilo e cores vibrantes | Em progresso |
+- 📱 **Responsivo**: funciona bem em mobile, tablet e desktop  
+- ⏱️ **Contador regressivo**: para criar expectativa do evento  
+- 🌈 **Gradientes e cores vibrantes**: visual moderno e chamativo  
+- ✨ **Animações e interatividade**: deixa a página mais viva e divertida  
 
 ---
 
-<div align="center">
-Desfrute da prévia enquanto eu continuo construindo! 😄
-</div>
+✨ Este projeto é **100% fictício**, criado para fins de estudo e portfólio. 🍜🥢🍣  
