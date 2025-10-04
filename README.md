@@ -3,6 +3,8 @@
 🎉 Um dia inteiro de comida deliciosa, cultura asiática e experiências inesquecíveis!  
 Esta landing page apresenta **quando e onde vai acontecer o festival**, além de detalhes dos pratos e atrações do evento.
 
+🔗 [Ver o projeto online](https://asia-food-fest-fzds.vercel.app/)
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -49,3 +51,4 @@ npm install
 
 # Inicie o servidor
 npm start
+
