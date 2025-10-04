@@ -16,22 +16,13 @@ O objetivo é mostrar **como poderia ser um evento de gastronomia asiática**, u
 
 ---
 
-## 🌈 Cards de Exemplo
+## 🌟 Funcionalidades
 
-Aqui estão alguns exemplos de cards que mostram como você pode organizar informações no site:
+- 📱 **Responsivo**: funciona bem em mobile, tablet e desktop  
+- ⏱️ **Contador regressivo**: para criar expectativa do evento  
+- 🌈 **Gradientes e cores vibrantes**: visual moderno e chamativo  
+- ✨ **Animações e interatividade**: deixa a página mais viva e divertida  
 
-```html
-<div class="card">
-  <h3>🎉 Destaque do Festival</h3>
-  <p>Um dia cheio de comidas deliciosas e cultura asiática!</p>
-</div>
+---
 
-<div class="card">
-  <h3>🍱 Prato em Destaque</h3>
-  <p>Sushi, Ramen, Tempura, Yakisoba e muito mais!</p>
-</div>
-
-<div class="card">
-  <h3>✨ Experiência Interativa</h3>
-  <p>Animações e design responsivo para uma melhor experiência.</p>
-</div>
+✨ Este projeto é **100% fictício**, criado para fins de estudo e portfólio. 🍜🥢🍣  
