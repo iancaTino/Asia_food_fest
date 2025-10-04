@@ -16,17 +16,21 @@
 
 <body>
     <header class="hero">
-        <div class="container">
-            <h2 class="hero__title">Asia Food Fest 2026</h2>
-            <p class="hero__text">
-                Uma experiência única com os sabores incríveis da Ásia!
-            </p>
-            <span id="contador" class="hero__contador">...</span>
-            <button class="button button--primary">Garanta seu ingresso</button>
+        <h2 class="hero__title">Asia Food Fest 2026</h2>
+        <p class="hero__text">
+            Uma experiência única com os sabores incríveis da Ásia!
+        </p>
+        <span id="contador" class="hero__contador">
+            <span class="tempo" id="dias"></span>
+            <span class="tempo" id="horas"></span>
+            <span class="tempo" id="minutos"></span>
+            <span class="tempo" id="segundos"></span>
+        </span>
+        <button class="button button--primary">Garanta seu ingresso</button>
         </div>
     </header>
 
-    <section class="event event--color-1">
+    <section class="event event--color1">
         <div class="container">
             <div class="event__details">
                 <h2 class="event__title">Informações do Evento</h2>
@@ -45,7 +49,7 @@
                             <i class="bi bi-geo-alt-fill"></i>
                         </div>
                         <h4 class="event__card-title">Local</h4>
-                        <p class="event__card-text">Coloca algum nome</p>
+                        <p class="event__card-text">Rua Lótus Azul</p>
                     </li>
 
                     <li class="event__card">
@@ -65,9 +69,60 @@
                     </li>
                 </ul>
             </div>
+    </section>
+
+    <section class="programming event--color2">
+        <div class="container">
+            <h2 class="programming__title">Programação</h2>
+            <ul class="programming__list">
+                <li class="programming__card">
+                    <p class="programming__time">12h às 14h</p>
+                    <h4 class="programming__event-title">Abertura e degustação de street food</h4>
+                    <p class="programming__description">Experimente os melhores sabores de rua da Ásia</p>
+                </li>
+
+                <li class="programming__card">
+                    <p class="programming__time">14h às 16h</p>
+                    <h4 class="programming__event-title">Workshop de sushi e ramen</h4>
+                    <p class="programming__description">Aprenda técnicas autênticas com mestres culinários</p>
+                </li>
+
+                <li class="programming__card">
+                    <p class="programming__time">16h às 18h</p>
+                    <h4 class="programming__event-title">Apresentações culturais</h4>
+                    <p class="programming__description">Shows de música e dança típica da Ásia</p>
+                </li>
+
+                <li class="programming__card">
+                    <p class="programming__time">18h às 20h</p>
+                    <h4 class="programming__event-title">Degustação de sobremesas e chás asiáticos</h4>
+                    <p class="programming__description">Descubra os doces e chás mais exóticos</p>
+                </li>
+
+                <li class="programming__card">
+                    <p class="programming__time">20h às 22h</p>
+                    <h4 class="programming__event-title">Música ao vivo e encerramento</h4>
+                    <p class="programming__description">Celebre o fim do dia com apresentações especiais</p>
+                </li>
+            </ul>
         </div>
     </section>
 
+    <section class="cta event--color3">
+        <h2 class="cta__title">Viva a Ásia em cada mordida!</h2>
+        <p class="cta__text">
+            Não perca essa experiência única. Garanta seu ingresso agora e mergulhe nos sabores do
+            <strong>Asia Food Fest 2026</strong>!
+        </p>
+        <button class="cta__button">Comprar ingresso agora</button>
+        <div class="cta__highlights">
+            <div class="cta__highlights__icon">🍜</div>
+            <div class="cta__highlights__icon">🍱</div>
+            <div class="cta__highlights__icon">🥟</div>
+            <div class="cta__highlights__icon">🍛</div>
+            <div class="cta__highlights__icon">🍵</div>
+        </div>
+    </section>
 
     <script src="scripts/main.js"></script>
 </body>

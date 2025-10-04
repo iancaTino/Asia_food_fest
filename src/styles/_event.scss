@@ -2,14 +2,25 @@
 
 .event {
     padding: 60px 20px;
-    background-color: variaveis.$colorWhite;
+
+    &--color1 {
+        background-image: linear-gradient(variaveis.$colorOrange2, variaveis.$colorSalmon);
+    }
+
+    &--color2 {
+        background-image: linear-gradient(variaveis.$colorSalmon, variaveis.$colorYellow);
+    }
+
+    &--color3 {
+        background-image: linear-gradient(variaveis.$colorYellow, variaveis.$colorSalmon);
+    }
 
     &__title {
         text-align: center;
         font-size: 3rem;
         font-weight: 800;
         margin-bottom: 50px;
-        color: variaveis.$colorOrange2;
+        color: variaveis.$colorYellow;
     }
 
     &__list {
@@ -23,7 +34,7 @@
     }
 
     &__card {
-        background-color: #fff;
+        background: linear-gradient(157deg, variaveis.$colorSalmon2, variaveis.$colorOrange );
         border-radius: 15px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         padding: 30px 20px;
@@ -41,18 +52,42 @@
             font-weight: 700;
             margin-top: 15px;
             margin-bottom: 10px;
-            color: variaveis.$colorOrange2;
+            color: variaveis.$colorYellow;
         }
 
         &-text {
             font-size: 1.2rem;
-            color: #333;
+            color: variaveis.$colorWhite;
         }
     }
 
     &__icon {
         font-size: 2.5rem;
-        color: variaveis.$colorOrange2;
         margin-bottom: 15px;
+
+        i {
+            display: inline-block;
+            color: variaveis.$colorOrange;
+            background-color: variaveis.$colorYellow;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 640px) {
+        &__list {
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        &__card {
+            width: 70vw;
+        }
+
+        &__title {
+            font-size: 2rem;
+        }
     }
 }
